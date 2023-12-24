@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
 
+* {
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+
 .App {
     text-align: center;
     padding: 0;
@@ -64,7 +69,8 @@ h1 {
 @media (max-width: 768px) {
     .santa-tracker iframe {
         width: 100vw;
-        height: 60vh;
+        height: calc(60vh - 40px); /* Adjust for smaller header on mobile */
+        border-radius: 5px; /* Optional: smaller border radius for mobile */
     }
 
     h1 {
@@ -73,5 +79,12 @@ h1 {
 
     .greeting {
         font-size: 1.2em;
+    }
+}
+
+/* Additional Media Query for Extra Small Devices */
+@media (max-width: 480px) {
+    .santa-tracker iframe {
+        height: calc(55vh - 30px); /* Further adjust for very small screens */
     }
 }
