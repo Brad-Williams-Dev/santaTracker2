@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/santatracker2/static/css/main.5e22a8cf.css",
+    "main.js": "/santatracker2/static/js/main.34c561b7.js",
+    "static/js/787.437d64ad.chunk.js": "/santatracker2/static/js/787.437d64ad.chunk.js",
+    "index.html": "/santatracker2/index.html",
+    "main.5e22a8cf.css.map": "/santatracker2/static/css/main.5e22a8cf.css.map",
+    "main.34c561b7.js.map": "/santatracker2/static/js/main.34c561b7.js.map",
+    "787.437d64ad.chunk.js.map": "/santatracker2/static/js/787.437d64ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e22a8cf.css",
+    "static/js/main.34c561b7.js"
+  ]
+}
