@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');
+
+.App {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+}
+
+.App-header {
+    background-color: rgba(211, 47, 47, 0.8); /* Slightly transparent red */
+    color: white;
+    padding: 20px;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    font-size: 3em; /* Larger font size */
+    margin: 0 0 20px;
+    color: #fff5ee; /* Soft white */
+}
+
+.christmas-lights {
+    animation: christmasLights 2s infinite;
+}
+
+.greeting {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: #fff5ee; /* Soft white */
+    margin-bottom: 20px;
+}
+
+.santa-tracker iframe {
+    width: 90vw;
+    height: 70vh;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+/* Christmas Lights Animation */
+@keyframes christmasLights {
+    0% { color: red; }
+    25% { color: green; }
+    50% { color: blue; }
+    75% { color: yellow; }
+    100% { color: red; }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .santa-tracker iframe {
+        width: 100vw;
+        height: 60vh;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .greeting {
+        font-size: 1.2em;
+    }
+}
