@@ -2,7 +2,7 @@
   "name": "santa_tracker2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Brad-Williams-Dev.github.io/santatracker2",
+  "homepage": "https://Brad-Williams-Dev.github.io/santaTracker2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
